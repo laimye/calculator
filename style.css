@@ -2,3 +2,55 @@
 	box.sizing: border-box;
 	font-family: 'Orbitron', sans-serif;
 }
+
+header {
+	text-align: center;
+	font-size: 50px;
+}
+#calc {
+	font-size: 34px;
+	border: solid black 2px;
+	border-collapse: collapse;
+	margin: 50px auto;
+}
+
+#calc td {
+	border: solid black 2px;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#calc #display {
+	text-align: right;
+	font-size: 40;
+	background-color: black;
+	color: white;
+	padding-right: 10px;
+}
+
+.digit:hover {
+	color: white;
+	background-color: black;
+}
+
+.op {
+	background-color: lightgrey;
+	color: black;
+}
+
+.op:hover {
+	background-color: black;
+	color: white;
+}
+
+.clear {
+	background-color: lightgrey;
+	color: black;
+}
+
+.clear:hover {
+	background-color: black;
+	color: white;
+}
